@@ -1,0 +1,1 @@
+Значит что бы по считать line-height нам нужнно поделить line-height на font-size;
