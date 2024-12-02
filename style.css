@@ -4,16 +4,20 @@
     box-sizing: border-box;
 
 }
+
 body{
+    font-family: 'TT Hoves' , sans-serif;
     background-image: url("./img/html_css_js.png");
     background-repeat: no-repeat;
     background-position: right 5% bottom 95%;
     background-position: cover;
 }
+
 section {
     padding-left: calc(10.7vw - 17.1px); /* 120px 23px */
     padding-bottom: calc(10.4vw + 26.6px);
 }
+
 .main_wrapper {
     padding-right: calc(6vw - 18.3px);
 }
@@ -21,6 +25,7 @@ section {
     margin-top: calc(-0.3vw + 41.2px);
     width: calc(8.8vw + 181.8px);
 }
+
 .info {
     margin-top: calc(6.3vw + 4.3px);
     display: flex;
@@ -28,12 +33,14 @@ section {
     gap: calc(14.4vw - 23.8px);
     flex-wrap: wrap;
 }
+
 h1 {
     font-family: 'Chava', sans-serif;
     font-size: calc(4.2vw + 26.2px);
     line-height: 110%;
     margin-top: calc(2.9vw + 38.6px);
 }
+
 .main_wrapper p {
     font-family: 'TT Hoves', sans-serif;
     font-size: calc(1vw + 14.2px) ;
@@ -81,51 +88,4 @@ h1 {
     text-align: center;
 
 
-}
-
-h2 {
-    display: flex;
-    flex-wrap: wrap;
-    font-family: 'TT Hoves' , sans-serif;
-    width: 769px;
-    height: 136px;
-    left: 120px;
-    font-size: 58px;
-    font-weight: 500;
-    line-height: 85%;
-    text-align: left;
-
-}
-
-.cards {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-    gap: 20px; 
-
-
-}
-
-.second_wrapper img{
-    width: 210px;
-    height: 210px;
-
-}
-
-.second_wrapper h3{
-    width: 420px;
-    height: 38px;
-    font-family: 'TT Hoves' , sans-serif;
-    font-size: 27px;
-    font-weight: 600;
-    line-height: 85%;
-
-}
-
-.second_wrapper p{
-    font-family: 'TT Hoves' , sans-serif;
-    font-size: 27px;
-    line-height: 71%;
-    margin-top: 20px;
-    gap: 20px;
 }
