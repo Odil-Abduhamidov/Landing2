@@ -1,91 +1,129 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'TT Hoves' , sans-serif;
-    background-image: url("./img/html_css_js.png");
-    background-repeat: no-repeat;
-    background-position: right 5% bottom 95%;
-    background-position: cover;
+body {
+  font-family: "TT Hoves", sans-serif;
 }
 
 section {
-    padding-left: calc(10.7vw - 17.1px); /* 120px 23px */
-    padding-bottom: calc(10.4vw + 26.6px);
+  padding-left: calc(10.7vw - 17.1px);
+  padding-bottom: calc(10.4vw + 26.6px);
 }
 
 .main_wrapper {
-    padding-right: calc(6vw - 18.3px);
+  padding-right: calc(6vw - 18.3px);
+  background-image: url(./img/html_css_js.png);
+  background-repeat: no-repeat;
+  background-position: top calc(4.6vw + 62.3px) right calc(5.7vw - 14.6px);
+  background-size: 30vw;
 }
 .logo {
-    margin-top: calc(-0.3vw + 41.2px);
-    width: calc(8.8vw + 181.8px);
+  margin-top: calc(-0.3vw + 41.2px);
+  width: calc(8.8vw + 181.8px);
 }
 
-.info {
-    margin-top: calc(6.3vw + 4.3px);
-    display: flex;
-    flex-direction: row;
-    gap: calc(14.4vw - 23.8px);
-    flex-wrap: wrap;
+.main_wrapper .info {
+  margin-top: calc(6.3vw + 4.3px);
+  display: flex;
+  flex-direction: row;
+  gap: calc(14.4vw - 23.8px);
+  flex-wrap: wrap;
 }
 
 h1 {
-    font-family: 'Chava', sans-serif;
-    font-size: calc(4.2vw + 26.2px);
-    line-height: 110%;
-    margin-top: calc(2.9vw + 38.6px);
+  font-family: "Chava", sans-serif;
+  font-size: calc(4.2vw + 26.2px);
+  line-height: 110%;
+  margin-top: calc(2.9vw + 38.6px);
 }
 
 .main_wrapper p {
-    font-family: 'TT Hoves', sans-serif;
-    font-size: calc(1vw + 14.2px) ;
-    margin-top: calc(2.1vw + 13.3px);
-    font-weight: 300;
-    line-height: 140%;
+  font-family: "TT Hoves", sans-serif;
+  font-size: calc(1vw + 14.2px);
+  margin-top: calc(2.1vw + 13.3px);
+  font-weight: 300;
+  line-height: 140%;
 }
 
-.buttons{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 20px;
-    gap: calc(1vw + 16.6px)
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  gap: calc(1vw + 16.6px);
 }
 
 .buttons .get_course {
-    color: white;
-    background-color: #6E3ABA;
-    width: 328px;
-    height: 21px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 12px;
-    border-color: #6E3ABA;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 85%;
-    text-align: center;
-
-
-} 
+  color: white;
+  background-color: #6e3aba;
+  width: 328px;
+  height: 61px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 12px;
+  border-color: #6e3aba;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 85%;
+  text-align: center;
+}
 
 .buttons .sign_up {
-    color: #6E3ABA;
-    background-color: white;
-    width: 328px;
-    height: 21px;
-    padding-top: 20px;
-    padding-bottom: 20px; 
-    border-radius:  12px;
-    border-color: #6E3ABA;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 85%;
-    text-align: center;
+  color: #6e3aba;
+  background-color: white;
+  width: 328px;
+  height: 61px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 12px;
+  border-color: #6e3aba;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 85%;
+  text-align: center;
+}
 
+.second_wrapper h2 {
+  font-size: calc(2.5vw + 26px); /* 58 34 */
+  font-weight: 500;
+  line-height: 118%;
+  width: calc(44.9vw + 194.3px); /* 769 328*/
+  left: 120px;
+}
 
+.second_wrapper .info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.card {
+  width: calc(12.7vw + 287.3px); /* 450 328*/
+  flex: 1 1 calc(33.33% - 10px); 
+  box-sizing: border-box;
+}
+
+.card img {
+  width: calc(5.9vw + 211px);
+  height: calc(5.9vw + 211px);
+  top: -49px;
+  left: -39px;
+}
+
+.card h4 {
+  width: calc(9.6vw + 297.3px);
+  font-size: calc(0.9vw + 15px);
+  font-weight: 600;
+  line-height: 138%;
+}
+
+.card p {
+  padding-top: calc(1wv + 6.6px);
+  width: calc(12.7vw + 287.3px);
+  height: calc(10.7vw + 90.67px);
+  font-size: calc(0.9vw + 15px);
+  line-height: 137%;
 }
