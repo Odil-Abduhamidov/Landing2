@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+* button {
+  cursor: pointer;
+}
 body {
   font-family: "TT Hoves", sans-serif;
 }
@@ -70,7 +73,7 @@ h1 {
   text-align: center;
 }
 
-.buttons .sign_up {
+.sign_up {
   color: #6e3aba;
   background-color: white;
   width: 328px;
@@ -102,7 +105,7 @@ h1 {
 
 .card {
   width: calc(12.7vw + 287.3px); /* 450 328*/
-  flex: 1 1 calc(33.33% - 10px); 
+  flex: 1 1 calc(33.33% - 10px);
   box-sizing: border-box;
 }
 
@@ -127,3 +130,69 @@ h1 {
   font-size: calc(0.9vw + 15px);
   line-height: 137%;
 }
+
+.third_wrapper {
+  padding: 0;
+  background-color: #6e3aba;
+  width: 1280px;
+  height: 623px;
+}
+
+.h2 {
+  padding-top: 80px;
+  padding-left: 302px;
+  width: calc(36vw + 210.79px);
+  color: white;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 61.26px;
+}
+
+.container {
+  width: 923px;
+  height: 219px;
+}
+
+.time-block{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+.digit {
+  display: flex;
+  font-family: "Chava", sans-serif;
+  color: #2f1d4e;
+  font-size: 174px;
+  font-weight: 400;
+  line-height: 187.05px;
+}
+
+.how_time {
+  flex-grow: space-between;
+  color: #2f1d4e;
+  height: 32px;
+  top: 385px;
+  left: 593px;
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 31.81px;
+}
+.third_wrapper button {
+  font-family: "TT Hoves", sans-serif;
+  background-color: white;
+  color: #6a44b7;
+  display: block;
+  cursor: pointer;
+}
+
+.timer {
+  width: 923px;
+  height: 219px;
+  top: 198px;
+  left: 164px;
+}
+
